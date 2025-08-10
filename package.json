@@ -1,0 +1,27 @@
+{
+  "name": "geoscreenshots",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "screenshot": "bun --no-install src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.15.0",
+    "sharp": "^0.34.3"
+  },
+  "optionalDependencies": {
+    "@img/sharp-darwin-arm64": "0.34.3",
+    "@img/sharp-libvips-darwin-arm64": "1.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "bun-types": "^1.2.20",
+    "typescript": "^5.9.2"
+  }
+}
